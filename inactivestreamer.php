@@ -2,14 +2,15 @@
 <html>
     <head>
         <link rel="stylesheet" href="inactive.css">
+</head>
+<body>
+<div class=inactiveform>
 <form name="inactive" action="remove.php"  onsubmit="return validateForm()" method="post">
-    Who is adding a new streamer today? <input type="text" name="adminuser"><br>
-    Twitch Name: <input type="text" name="twitchname"><br>
-    Twitch URL: <input type="text" name="twitchurl"><br>
-    Facebook Name: <input type="text" name="fbname"><br>
-    Facebook URL: <input type="text" name="fburl"><br>
+    Who is removing a streamer today? <input type="text" name="adminuser"><br>
+    Username(Twitch/FB): <input type="text" name="username"><br>
     <input type="submit" value="Submit">
 </form>
+</div>
     <script>
         function validateForm() {
             let x = document.forms["inactive"]["adminuser"].value;
@@ -19,4 +20,5 @@
             }
         }
         </script>
+        </body>
 </html>
