@@ -1,6 +1,6 @@
 <?php
 $search = $_POST['username'];
-require "db.php";
+include "db.php";
 
 $sql = "DELETE FROM twitchStreamers WHERE username like '%$search%'";
 
