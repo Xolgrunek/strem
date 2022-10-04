@@ -14,6 +14,10 @@ body {
     width: 50%;
     
 }
+.WheelButton {
+    margin:auto;
+    width: 20%;
+}
 .button1 {
     display: inline-block;
     padding: 15px 25px;
@@ -54,6 +58,28 @@ body {
     background-color: rgb(123, 39, 201);
 }
 .button2:active{
+    background-color: rgb(123, 39, 201);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.button3 {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.button3:hover {
+    background-color: rgb(123, 39, 201);
+}
+.button3:active{
     background-color: rgb(123, 39, 201);
     box-shadow: 0 5px #666;
     transform: translateY(4px);

@@ -11,6 +11,7 @@
 <div class="buttons">
 <button class="button1" onclick="newStreamer()">Add New Streamer</button>
 <button class="button2"onclick="inactiveStreamer()">Remove Inactive Streamer</button>
+
 <script>
 function newStreamer() {
     location.replace("newstreamer.php")
@@ -20,7 +21,16 @@ function newStreamer() {
     function inactiveStreamer() {
         location.replace("inactivestreamer.php")
     }
-    </script>
+</script>
+</div>
+<br>
+<div class="WheelButton">
+<button class="button3" onclick="randomStreamer()">Spin the Wheel!</button>
+<script>
+    function randomStreamer() {
+        location.replace("streamwheel.php")
+    }
+</script>
 </div>
 </body>
 </html>

@@ -6,9 +6,9 @@
 <body>
 <div class=newstreamerform>
 <form name="newstreamer" action="add.php"  onsubmit="return validateForm()" method="post">
-    Who is adding a streamer today? <input type="text" name="adminuser"><br>
-    Username(Twitch/FB): <input type="text" name="username"><br>
-    Stream Link: <input type="url" name="streamlink"><br>
+    <p>Who is adding a streamer today? <span style="color:red">*</span><input type="text" name="adminuser" placeholder="(example)TheRev_Gaming"></p>
+    <p>Username(Twitch/FB): <input type="text" name="username" placeholder="(example)Shroud"></p>
+    <p>Stream Link: <input type="url" name="streamlink" placeholder="(example)https://twitch.tv/shroud"></p>
     <input type="submit" value="Submit">
 </form>
 </div>
