@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+body {
+    /*background-image: url("background.png");*/
+    background-color: black;
+}
+.header1 {
+    color: white;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+
+}
+.buttons{
+    margin: auto;
+    width: 50%;
+    
+}
+.button1 {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.button1:hover {
+    background-color: rgb(123, 39, 201);
+}
+.button1:active{
+    background-color: rgb(123, 39, 201);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.button2 {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.button2:hover {
+    background-color: rgb(123, 39, 201);
+}
+.button2:active{
+    background-color: rgb(123, 39, 201);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

@@ -2,10 +2,25 @@
 <html>
 <head>
     <title>Streamer of the Week</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<?php
-
-?>
+<div class="header1">
+    <h1>Welcome to the Streamer of the Week Page</h1>
+</div>
+<div class="buttons">
+<button class="button1" onclick="newStreamer()">Add New Streamer</button>
+<button class="button2"onclick="inactiveStreamer()">Remove Inactive Streamer</button>
+<script>
+function newStreamer() {
+    location.replace("newstreamer.php")
+}
+</script>
+<script>
+    function inactiveStreamer() {
+        location.replace("inactivestreamer.php")
+    }
+    </script>
+</div>
 </body>
 </html>
