@@ -13,6 +13,6 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
-echo "sleep 10";
+sleep(10);
 header("Location: newstreamer.php"); 
 ?>
