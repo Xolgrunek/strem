@@ -1,6 +1,6 @@
 <?php
 $password = $_POST['password'];
-$hash = 'a';
+$hash = '$2y$10$rs83dioXp4trdh/xRjS2reAsBP2dw.x/8aGvT/LvhLkn5PM1puzQi';
 
 if (password_verify($password, $hash)){
 
