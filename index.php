@@ -28,7 +28,7 @@ function newStreamer() {
 <button class="button3" onclick="randomStreamer()">Spin the Wheel!</button>
 <script>
     function randomStreamer() {
-        location.replace("streamwheel.php")
+        location.replace("wheel/streamwheel.php")
     }
 </script>
 </div>

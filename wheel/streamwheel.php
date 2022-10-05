@@ -60,9 +60,9 @@
 
 <div style="display:none;" id="myDiv" class="animate-bottom">
 <?php
-include "db.php";
-$streamer = rand(1,15);
-$sql = "SELECT id, username, streamlink FROM twitchStreamers where id='%$streamer%'";
+include "../db.php";
+$streamer = "SELECT id FROM 'streamerPeople' ORDER BY RAND() LIMIT 0,1";
+$sql = "SELECT id, username, streamlink FROM streamerPeople where id='$streamer'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {

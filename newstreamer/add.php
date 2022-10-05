@@ -1,9 +1,9 @@
 <?php
-$username = $_POST['username'];
+$streamer = $_POST['username'];
 $streamlink = $_POST['streamlink'];
-include "../src/db.php";
+include "../db.php";
 
-$sql = "INSERT INTO streamerPeople (username, streamlink) VALUES (%$username%, %$streamlink%)";
+$sql = "INSERT INTO streamerPeople (username, streamlink) VALUES ('%$streamer%', '%$streamlink%')";
 
 if ($conn->query($sql) === TRUE) {
     echo "New Streamer added successfully!";

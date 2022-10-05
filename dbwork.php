@@ -1,5 +1,5 @@
 <?php
-include "src/db.php";
+include "db.php";
 
 $sql = "CREATE TABLE streamerPeople (
     id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
