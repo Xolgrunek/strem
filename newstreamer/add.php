@@ -1,7 +1,7 @@
 <?php
 $username = $_POST['username'];
 $streamlink = $_POST['streamlink'];
-include "db.php";
+include "../src/db.php";
 
 $sql = "INSERT INTO twitchStreamers (username, streamlink) VALUES (%$username%, %$streamlink%)";
 

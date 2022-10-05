@@ -14,12 +14,12 @@
 
 <script>
 function newStreamer() {
-    location.replace("newstreamer.php")
+    location.replace("newstreamer/newstreamer.php")
 }
 </script>
 <script>
     function inactiveStreamer() {
-        location.replace("inactivestreamer.php")
+        location.replace("delstreamer/inactivestreamer.php")
     }
 </script>
 </div>
