@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Streamer of the Week</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
 <div class="header1">
