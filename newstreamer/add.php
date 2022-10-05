@@ -3,7 +3,7 @@ $username = $_POST['username'];
 $streamlink = $_POST['streamlink'];
 include "../src/db.php";
 
-$sql = "INSERT INTO twitchStreamers (username, streamlink) VALUES (%$username%, %$streamlink%)";
+$sql = "INSERT INTO streamerPeople (username, streamlink) VALUES (%$username%, %$streamlink%)";
 
 if ($conn->query($sql) === TRUE) {
     echo "New Streamer added successfully!";
